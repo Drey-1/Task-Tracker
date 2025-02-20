@@ -1,0 +1,22 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "A Task tracker CLI in node js.",
+  "main": "task_cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "task-cli":"node task_cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drey-1/Task-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Drey-1/Task-Tracker/issues"
+  },
+  "homepage": "https://github.com/Drey-1/Task-Tracker#readme"
+}
