@@ -10,7 +10,7 @@ function ensureFileExists() {
 }
 
 //-------------------- Creates a new task in JASON file
-function add(descripton){
+function add(description){
     ensureFileExists();
     let tasks = JSON.parse(fs.readFileSync(filePath,"utf-8"));
     let newTask = {
