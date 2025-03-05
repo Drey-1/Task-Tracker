@@ -1,7 +1,7 @@
 const fs = require("fs");
 const filePath = "tasks.json"
 
-//-------------------- Verify wathever "tasks.jason" exist
+//-------------------- Verify wether "tasks.jason" exist
 function ensureFileExists() {
     if (!fs.existsSync(filePath)) {
         fs.writeFileSync(filePath, JSON.stringify([]));
